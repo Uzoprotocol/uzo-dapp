@@ -14,11 +14,17 @@ const Nav: React.FC = () => {
       <StyledLink exact activeClassName="active" to="/staking">
         Staking
       </StyledLink>
-      {/* <StyledAbsoluteLink
+     <StyledAbsoluteLink
         href="#"
       >
-       Exchange
-      </StyledAbsoluteLink> */}
+       YuzuSwap
+      </StyledAbsoluteLink>
+      
+       <StyledAbsoluteLink
+        href="#"
+      >
+       NFT FARMING
+      </StyledAbsoluteLink>
       
     </StyledNav>
   )
